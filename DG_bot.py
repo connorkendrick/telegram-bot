@@ -32,7 +32,8 @@ class DeathGripsBot:
             "FUCK WHAT YA HEARD", "DON'T GET ME WRONG", "YOU CAN SIT BETWEEN THE BACKSEAT AND MY DICK!", "Jimi Hendrix, of course. Of course.",
             "FUCK WHO'S WATCHING", "When you come out, your shit is gone", "NOW WE GOT ALL THE COCONUTS, BITCH!", "SKIIIINHEAD, SKINHEAD!",
             "IT GOES IT GOES IT GOES IT GOES", "GUILLOTIIIIIIIINE", "I AM THE BEAST I WORSHIP", "TRIPLE SIX, FIVE, FORKED, TOUNGE!",
-            "HUSTLE BONES COMIN' OUT MY MOUTH!", "COME UP AND GET ME", "I'VE GOT THE POWERS THAT B!", "GET GET GET GET, GOT GOT GOT GOT"]
+            "HUSTLE BONES COMIN' OUT MY MOUTH!", "COME UP AND GET ME", "I'VE GOT THE POWERS THAT B!", "GET GET GET GET, GOT GOT GOT GOT",
+            "IT's DEATH DEATH DEATH DEATH DEATH"]
         self.api_token.send_message(chat_id, "Did somebody say Death Grips?!" + "\n\n" + random.choice(quote_list)).wait()
         
         
