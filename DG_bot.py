@@ -21,7 +21,7 @@ class DeathGripsBot:
             key_words = ["Death Grips", "Death grips", "death grips", "DEATH GRIPS", "DeathGrips", "Deathgrips", "deathgrips", "DEATHGRIPS", "Dg", "dg", "DG"]
         
             for word in key_words:
-                if word in bot_update[0].message.text:
+                if word in bot_update[0].message:
                     self.reply(bot_update[0].message.chat.id)
         
         
