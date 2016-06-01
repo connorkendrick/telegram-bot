@@ -18,7 +18,7 @@ class DeathGripsBot:
         if bot_update:       
             self.id = bot_update[0].update_id
         
-            key_words = ["Death Grips", "death grips", "DEATH GRIPS", "DeathGrips", "Deathgrips", "deathgrips", "DEATHGRIPS", "Dg", "dg", "DG"]
+            key_words = ["Death Grips", "Death grips", "death grips", "DEATH GRIPS", "DeathGrips", "Deathgrips", "deathgrips", "DEATHGRIPS", "Dg", "dg", "DG"]
         
             for word in key_words:
                 if word in bot_update[0].message.text:
