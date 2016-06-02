@@ -18,10 +18,10 @@ class ProfessionalWrestlingBot:
         if bot_update:       
             self.id = bot_update[0].update_id
                         
-            key_words = ["wwe", "raw", "raws", "smackdown", "smackdowns", "wrestling", "wwf", "tna", "ecw", "awa", "wcw", "wrestlemania", "mania",
-                "money in the bank", "mitb", "summerslam", "nxt", "cena", "finisher", "kayfabe", "e&c", "roh", "njpw", "survivor series", "match",
+            key_words = ["wwe", " raw ", " raws ", "smackdown", "smackdowns", "wrestling", "wwf", "tna", "ecw", " awa ", "wcw", "wrestlemania", "mania",
+                "money in the bank", "mitb", "summerslam", "nxt", "cena", "finisher", "kayfabe", "e&c", " roh ", "njpw", "survivor series", "match",
                 "main event", "extreme rules", "nwa", "royal rumble", "royalrumble", "seth rollins", "cm punk", "aj styles","bullet club",
-                "nwo", "monday night wars", "mnw", "kenny omega", "hbk", "hhh", "triple h", "haitch", "stone cold", "steve austin"]
+                "nwo", "monday night wars", "mnw", "kenny omega", "hbk", " hhh ", "triple h", "haitch", "stone cold", "steve austin", "wrestle"]
                             
             try:
                 chat_message = bot_update[0].message.text
