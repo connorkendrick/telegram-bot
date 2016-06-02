@@ -20,7 +20,7 @@ class ProfessionalWrestlingBot:
                         
             key_words = ["wwe", "raw", "raws", "smackdown", "smackdowns", "wrestling", "wwf", "tna", "ecw", "awa", "wcw", "wrestlemania", "mania",
                 "money in the bank", "mitb", "summerslam", "nxt", "cena", "finisher", "kayfabe", "e&c", "roh", "njpw", "survivor series", "match",
-                "main event", "extreme rules", "nwa", "royal rumble", "royalrumble", "rr", "seth rollins", "cm punk", "aj styles","bullet club",
+                "main event", "extreme rules", "nwa", "royal rumble", "royalrumble", "seth rollins", "cm punk", "aj styles","bullet club",
                 "nwo", "monday night wars", "mnw", "kenny omega", "hbk", "hhh", "triple h", "haitch", "stone cold", "steve austin"]
                             
             try:
@@ -30,6 +30,7 @@ class ProfessionalWrestlingBot:
                 for word in key_words:
                     if word in chat_message:
                         self.reply(bot_update[0].message.chat.id)
+                        break
                         
             except AttributeError:
                 pass
