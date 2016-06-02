@@ -1,7 +1,7 @@
 import twx.botapi
 import random
 
-API_TOKEN = "233792938:AAEpMTS4-ygpQc-YBHYdPGCxI6RUJMpxotU"
+API_TOKEN = ""
 
 class ProfessionalWrestlingBot:
     def __init__(self, api_token):
