@@ -1,7 +1,7 @@
 import twx.botapi
 import random
 
-API_TOKEN = "184997843:AAHctRG-dO_PDJLRnS4ppor2B8RcgvFHnTw"
+API_TOKEN = ""
 
 class DeathGripsBot:
     def __init__(self, api_token):
